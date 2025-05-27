@@ -23,7 +23,7 @@
 
 ML allows systems to learn patterns from data, improving their performance over time.
 
-![ML process](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/MachineLearning.png/800px-MachineLearning.png)
+![ML process](https://atriainnovation.com/uploads/2023/11/portada-9-900x743-c-center.jpg)
 
 ---
 
@@ -47,7 +47,7 @@ Learns actions based on rewards and penalties.
 - **Key terms**: Agent, Environment, Reward, Policy  
 - **Use Cases**: Robotics, games, self-driving cars
 
-![Types of ML](https://miro.medium.com/v2/resize:fit:720/format:webp/1*TDv_F1AAvAaOcg2DuSybPA.png)
+![Types of ML](https://datasciencedojo.com/wp-content/uploads/ml-ds-algos.jpg.webp)
 
 ---
 
@@ -60,7 +60,7 @@ Learns actions based on rewards and penalties.
 | Overfitting     | Model is too complex; memorizes training data |
 | Underfitting    | Model is too simple; misses patterns          |
 
-![Overfit vs Underfit](https://upload.wikimedia.org/wikipedia/commons/6/68/Overfitting.svg)
+![Overfit vs Underfit](https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1746469504474.svg)
 
 ---
 
@@ -71,7 +71,7 @@ Learns actions based on rewards and penalties.
 
 We aim for **low bias & low variance** — the sweet spot of model performance.
 
-![Bias Variance](https://miro.medium.com/v2/resize:fit:800/format:webp/1*Lx-B5vnRVwNobS1UOzi4Og.png)
+![Bias Variance](https://miro.medium.com/v2/format:webp/1*atFRtCnfWNUJMlPhie8mfA.png)
 
 ---
 
@@ -108,7 +108,7 @@ Understanding the math behind ML helps you debug, tune, and trust your models.
 - Bayes’ theorem, expectation, variance  
 🛠 Used in: Naive Bayes, probabilistic models
 
-![Math for ML](https://miro.medium.com/v2/resize:fit:720/format:webp/1*umD9Br0Puv2z_0sHdj6tNQ.jpeg)
+![Math for ML](https://miro.medium.com/v2/resize:fit:720/format:webp/1*eI6ZzKZb-MFpHHU9BeyyqQ.png)
 
 ---
 
@@ -151,7 +151,7 @@ Reduce input features while retaining important info.
 - UMAP
 - Autoencoders (in deep learning)
 
-![Dimensionality Reduction](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/PCA.svg/1280px-PCA.svg.png)
+![Dimensionality Reduction](https://www.sc-best-practices.org/_images/dimensionality_reduction.jpeg)
 
 ---
 
