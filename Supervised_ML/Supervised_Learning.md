@@ -1,20 +1,61 @@
 # 🧠 Supervised Machine Learning
 
-**Supervised Machine Learning** is a type of machine learning where models are trained using **labeled datasets**. The algorithm learns the relationship between input features (X) and output labels (Y) to make predictions on unseen data.
+## 🔍 Detailed Definition
+
+**Supervised Machine Learning** is a type of machine learning where an algorithm is trained using **labeled data**. Each data point in the training set consists of an **input** (features) and a corresponding **correct output** (label). The model learns a mapping function from inputs to outputs and uses it to predict outcomes for new, unseen data.
+
+### 📌 Characteristics:
+- **Labeled Dataset**: Training data includes correct answers.
+- **Learning Objective**: Minimize the difference between predicted and actual output.
+- **Output**: Can be either a **category** (classification) or a **number** (regression).
+
+### 🧠 Formal Representation
+
+Let the training dataset be:
+
+\[
+D = \{(x_1, y_1), (x_2, y_2), ..., (x_n, y_n)\}
+\]
+
+- `x_i` = input features  
+- `y_i` = known output  
+- Goal: Learn a function `f(x) ≈ y`
+
+---
+
+## 📘 Example: Predicting Exam Scores
+
+| Hours Studied (X) | Exam Score (Y) |
+|-------------------|----------------|
+| 5                 | 80             |
+| 2                 | 45             |
+| 9                 | 95             |
+
+### ✅ Explanation:
+
+1. **Objective**: Predict a student's score based on how many hours they study.
+2. **Type of Learning**: Regression (output is a continuous value).
+3. **Features (X)**: Hours studied.
+4. **Labels (Y)**: Exam score.
+5. **Training the Model**:  
+   The algorithm finds a relationship like:
+
+   \[
+   \text{Score} = 10 \times (\text{Hours Studied}) + 30
+   \]
+
+6. **Using the Model**:  
+   For a new input, e.g., `Hours Studied = 6`, the predicted score would be:
+
+   \[
+   \text{Predicted Score} = 10 \times 6 + 30 = 90
+   \]
 
 ---
 
 ## 📦 How It Works
 
-In supervised learning, the model receives data with both inputs and outputs. The aim is to learn a function `f: X → Y` that can generalize well to new, unseen inputs.
-
-### Example:
-
-| Features (X)         | Output (Y)   |
-|----------------------|--------------|
-| Hours studied = 5    | Score = 80   |
-| Hours studied = 2    | Score = 45   |
-| Hours studied = 9    | Score = 95   |
+In supervised learning, the model receives data with both inputs and outputs. It tries to learn the mapping function `f: X → Y` that minimizes prediction errors on future data.
 
 ---
 
