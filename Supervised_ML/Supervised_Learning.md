@@ -73,7 +73,7 @@ In supervised learning, the model receives data with both inputs and outputs. It
 - Examples: Spam detection, disease diagnosis  
 - Algorithms: Logistic Regression, Decision Tree, SVM, KNN
 
-![Classification vs Regression](https://via.placeholder.com/600x300.png?text=Classification+vs+Regression)
+![Classification vs Regression](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fthepracticaldev.s3.amazonaws.com%2Fi%2Fmjshszqx4fj22hs12vfn.png)
 
 ---
 
