@@ -1,87 +1,59 @@
-<div align="center">
-
 # 🧠 Supervised Machine Learning
 
-**Supervised Machine Learning** is a type of machine learning where models learn from **labeled data**. The algorithm maps inputs to known outputs and improves its accuracy over time.
-
-<img src="https://via.placeholder.com/600x300.png?text=Supervised+Learning+Workflow" width="600" alt="Supervised Learning Diagram"/>
+**Supervised Machine Learning** is a type of machine learning where models are trained using **labeled datasets**. The algorithm learns the relationship between input features (X) and output labels (Y) to make predictions on unseen data.
 
 ---
 
 ## 📦 How It Works
 
-The model receives a dataset with input features (`X`) and output labels (`Y`). It learns a mapping function `f: X → Y`.
+In supervised learning, the model receives data with both inputs and outputs. The aim is to learn a function `f: X → Y` that can generalize well to new, unseen inputs.
 
 ### Example:
 
-<table>
-  <thead>
-    <tr>
-      <th>Features (X)</th>
-      <th>Output (Y)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Hours studied = 5</td>
-      <td>Score = 80</td>
-    </tr>
-    <tr>
-      <td>Hours studied = 2</td>
-      <td>Score = 45</td>
-    </tr>
-    <tr>
-      <td>Hours studied = 9</td>
-      <td>Score = 95</td>
-    </tr>
-  </tbody>
-</table>
+| Features (X)         | Output (Y)   |
+|----------------------|--------------|
+| Hours studied = 5    | Score = 80   |
+| Hours studied = 2    | Score = 45   |
+| Hours studied = 9    | Score = 95   |
 
 ---
 
 ## 🍀 Types of Supervised Learning
 
-### ✅ 1. Regression  
-Used when output is **continuous**.
+### ✅ 1. Regression
 
-- Example: Predicting temperature, house prices  
+- Used when output is **continuous**  
+- Examples: Predicting temperature, house prices  
 - Algorithms: Linear Regression, Ridge Regression
 
-### 🟨 2. Classification  
-Used when output is **categorical**.
+### 🟨 2. Classification
 
-- Example: Spam detection, disease diagnosis  
+- Used when output is **categorical**  
+- Examples: Spam detection, disease diagnosis  
 - Algorithms: Logistic Regression, Decision Tree, SVM, KNN
 
-<img src="https://via.placeholder.com/600x300.png?text=Classification+vs+Regression" width="600" alt="Classification vs Regression"/>
+![Classification vs Regression](https://via.placeholder.com/600x300.png?text=Classification+vs+Regression)
 
 ---
 
 ## 📘 Common Supervised Algorithms
 
-<table>
-  <thead>
-    <tr>
-      <th>Algorithm</th>
-      <th>Use Case</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Linear Regression</td><td>Predicting numerical values</td></tr>
-    <tr><td>Logistic Regression</td><td>Binary classification</td></tr>
-    <tr><td>Decision Trees</td><td>Easy to interpret decisions</td></tr>
-    <tr><td>Random Forest</td><td>Ensemble method with multiple trees</td></tr>
-    <tr><td>SVM</td><td>Classifying complex spaces</td></tr>
-    <tr><td>KNN</td><td>Instance-based learning</td></tr>
-    <tr><td>Neural Networks</td><td>Advanced deep learning tasks</td></tr>
-  </tbody>
-</table>
+| Algorithm            | Use Case                        |
+|----------------------|----------------------------------|
+| Linear Regression    | Predicting numerical values      |
+| Logistic Regression  | Binary classification            |
+| Decision Trees       | Easy to interpret decisions      |
+| Random Forest        | Ensemble method                  |
+| Support Vector Machine (SVM) | Complex classification |
+| K-Nearest Neighbors (KNN) | Instance-based learning    |
+| Neural Networks      | Deep learning tasks              |
 
 ---
 
 ## 🧪 Evaluation Metrics
 
 ### For Classification:
+
 - Accuracy  
 - Precision = TP / (TP + FP)  
 - Recall = TP / (TP + FN)  
@@ -89,6 +61,7 @@ Used when output is **categorical**.
 - Confusion Matrix
 
 ### For Regression:
+
 - Mean Absolute Error (MAE)  
 - Mean Squared Error (MSE)  
 - Root Mean Squared Error (RMSE)  
@@ -96,12 +69,12 @@ Used when output is **categorical**.
 
 ---
 
-## 🔧 Supervised Learning Workflow
+## 🔧 Workflow of Supervised Learning
 
 1. Define the problem  
-2. Collect and prepare data  
+2. Collect and clean the data  
 3. Preprocess the features  
-4. Split data (Train/Test)  
+4. Split into training and test sets  
 5. Train the model  
 6. Evaluate performance  
 7. Tune hyperparameters  
@@ -111,9 +84,9 @@ Used when output is **categorical**.
 
 ## 📌 Real-World Applications
 
-- 📧 Spam Email Detection  
-- 💳 Fraud Detection  
-- 🏥 Medical Diagnosis  
+- 📧 Email Spam Detection  
+- 💳 Credit Card Fraud Detection  
+- 🏥 Disease Diagnosis  
 - 🛒 Customer Churn Prediction  
 - 🔍 Search Engine Ranking  
 - 🎓 Student Performance Prediction
@@ -122,21 +95,10 @@ Used when output is **categorical**.
 
 ## 🆚 Supervised vs Unsupervised Learning
 
-<table>
-  <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Supervised</th>
-      <th>Unsupervised</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Data</td><td>Labeled</td><td>Unlabeled</td></tr>
-    <tr><td>Goal</td><td>Prediction</td><td>Pattern discovery</td></tr>
-    <tr><td>Examples</td><td>Linear Regression, SVM</td><td>K-Means, PCA</td></tr>
-  </tbody>
-</table>
+| Aspect              | Supervised Learning         | Unsupervised Learning        |
+|---------------------|-----------------------------|------------------------------|
+| Data                | Labeled                     | Unlabeled                    |
+| Goal                | Predict outcomes            | Discover patterns            |
+| Example Algorithms  | Linear Regression, SVM      | K-Means, PCA                 |
 
-<img src="https://via.placeholder.com/600x300.png?text=Supervised+vs+Unsupervised" width="600" alt="Comparison image"/>
-
-</div>
+![Supervised vs Unsupervised](https://via.placeholder.com/600x300.png?text=Supervised+vs+Unsupervised)
