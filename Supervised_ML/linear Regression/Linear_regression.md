@@ -58,9 +58,7 @@ For a house with:
 - Bedrooms = 3
 - Age = 8 years
 
-\[
-\text{Price} = 0.1 \cdot 2000 + 18 \cdot 3 - 1.2 \cdot 8 + 50 = 294.4K
-\]
+Predicted Price = 0.1 × 2000 + 18 × 3 - 1.2 × 8 + 50 = 294.4K
 
 ---
 
@@ -76,7 +74,7 @@ The 3D plot includes:
 
 This helps visually understand how price depends on **both size and age**.
 
-![3D Regression Surface](https://via.placeholder.com/600x400.png?text=3D+Regression+Plot)
+![3D Regression Surface](/images/output.png)
 
 ---
 
