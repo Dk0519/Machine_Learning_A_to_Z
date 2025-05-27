@@ -8,16 +8,14 @@
 
 ## 📐 Mathematical Representation
 
-\[
-y = \beta_0 + \beta_1x_1 + \beta_2x_2 + \cdots + \beta_nx_n + \varepsilon
-\]
+y = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ + ε
 
 Where:
-- \( y \) = target variable (house price)
-- \( x_1, x_2, ..., x_n \) = input features (size, bedrooms, age)
-- \( \beta_0 \) = intercept
-- \( \beta_i \) = coefficient for feature \( x_i \)
-- \( \varepsilon \) = error term
+- `y` = Target variable (e.g., house price)
+- `x₁, x₂, ..., xₙ` = Input features (e.g., size, bedrooms, age)
+- `β₀` = Intercept
+- `βᵢ` = Coefficient for feature `xᵢ`
+- `ε` = Error term (residual)
 
 ---
 
