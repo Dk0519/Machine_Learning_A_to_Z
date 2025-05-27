@@ -74,7 +74,8 @@ The 3D plot includes:
 
 This helps visually understand how price depends on **both size and age**.
 
-![3D Regression Surface](/output.png)
+![3D Regression Output](output.png)
+
 
 ---
 
