@@ -142,4 +142,4 @@ In supervised learning, the model receives data with both inputs and outputs. It
 | Goal                | Predict outcomes            | Discover patterns            |
 | Example Algorithms  | Linear Regression, SVM      | K-Means, PCA                 |
 
-![Supervised vs Unsupervised](https://via.placeholder.com/600x300.png?text=Supervised+vs+Unsupervised)
+![Supervised vs Unsupervised](https://datasciencedojo.com/wp-content/uploads/ml-ds-algos.jpg.webp)
