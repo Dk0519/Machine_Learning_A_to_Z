@@ -2,17 +2,17 @@
 
 # 🧠 Supervised Machine Learning
 
-<p><strong>Supervised Machine Learning</strong> is a type of machine learning where the model is trained using <strong>labeled data</strong>. The algorithm learns from input-output pairs to make predictions on unseen data.</p>
+**Supervised Machine Learning** is a type of machine learning where models learn from **labeled data**. The algorithm maps inputs to known outputs and improves its accuracy over time.
 
-<img src="https://via.placeholder.com/600x300.png?text=Supervised+Learning+Diagram" alt="Supervised Learning Example" width="600"/>
+<img src="https://via.placeholder.com/600x300.png?text=Supervised+Learning+Workflow" width="600" alt="Supervised Learning Diagram"/>
 
 ---
 
 ## 📦 How It Works
 
-<p>The model receives a dataset with features (X) and known outcomes (Y). The objective is to learn a mapping function <code>f: X → Y</code>.</p>
+The model receives a dataset with input features (`X`) and output labels (`Y`). It learns a mapping function `f: X → Y`.
 
-<h3>Example:</h3>
+### Example:
 
 <table>
   <thead>
@@ -39,27 +39,25 @@
 
 ---
 
-## 🧩 Types of Supervised Learning
+## 🍀 Types of Supervised Learning
 
-### 1. Regression  
-<ul>
-  <li>Used when output is <strong>continuous</strong>.</li>
-  <li>Examples: Predicting temperature, house prices</li>
-  <li>Algorithms: Linear Regression, Ridge Regression</li>
-</ul>
+### ✅ 1. Regression  
+Used when output is **continuous**.
 
-### 2. Classification  
-<ul>
-  <li>Used when output is <strong>categorical</strong>.</li>
-  <li>Examples: Spam detection, disease diagnosis</li>
-  <li>Algorithms: Logistic Regression, Decision Tree, SVM, KNN</li>
-</ul>
+- Example: Predicting temperature, house prices  
+- Algorithms: Linear Regression, Ridge Regression
 
-<img src="https://via.placeholder.com/600x300.png?text=Classification+vs+Regression" alt="Classification vs Regression" width="600"/>
+### 🟨 2. Classification  
+Used when output is **categorical**.
+
+- Example: Spam detection, disease diagnosis  
+- Algorithms: Logistic Regression, Decision Tree, SVM, KNN
+
+<img src="https://via.placeholder.com/600x300.png?text=Classification+vs+Regression" width="600" alt="Classification vs Regression"/>
 
 ---
 
-## 🔁 Common Supervised Algorithms
+## 📘 Common Supervised Algorithms
 
 <table>
   <thead>
@@ -71,11 +69,11 @@
   <tbody>
     <tr><td>Linear Regression</td><td>Predicting numerical values</td></tr>
     <tr><td>Logistic Regression</td><td>Binary classification</td></tr>
-    <tr><td>Decision Trees</td><td>Easy interpretation</td></tr>
-    <tr><td>Random Forest</td><td>Ensemble method</td></tr>
-    <tr><td>SVM</td><td>High-dimensional data</td></tr>
+    <tr><td>Decision Trees</td><td>Easy to interpret decisions</td></tr>
+    <tr><td>Random Forest</td><td>Ensemble method with multiple trees</td></tr>
+    <tr><td>SVM</td><td>Classifying complex spaces</td></tr>
     <tr><td>KNN</td><td>Instance-based learning</td></tr>
-    <tr><td>Neural Networks</td><td>Deep learning tasks</td></tr>
+    <tr><td>Neural Networks</td><td>Advanced deep learning tasks</td></tr>
   </tbody>
 </table>
 
@@ -84,49 +82,41 @@
 ## 🧪 Evaluation Metrics
 
 ### For Classification:
-<ul>
-  <li><strong>Accuracy</strong> – Correct predictions / Total</li>
-  <li><strong>Precision</strong> – TP / (TP + FP)</li>
-  <li><strong>Recall</strong> – TP / (TP + FN)</li>
-  <li><strong>F1 Score</strong> – Harmonic mean of Precision and Recall</li>
-  <li><strong>Confusion Matrix</strong> – TP, FP, FN, TN table</li>
-</ul>
+- Accuracy  
+- Precision = TP / (TP + FP)  
+- Recall = TP / (TP + FN)  
+- F1 Score = Harmonic mean of Precision and Recall  
+- Confusion Matrix
 
 ### For Regression:
-<ul>
-  <li>Mean Absolute Error (MAE)</li>
-  <li>Mean Squared Error (MSE)</li>
-  <li>Root Mean Squared Error (RMSE)</li>
-  <li>R² Score</li>
-</ul>
+- Mean Absolute Error (MAE)  
+- Mean Squared Error (MSE)  
+- Root Mean Squared Error (RMSE)  
+- R² Score
 
 ---
 
-## 🔧 Workflow
+## 🔧 Supervised Learning Workflow
 
-<ol>
-  <li>Define the problem</li>
-  <li>Collect and clean data</li>
-  <li>Preprocess features</li>
-  <li>Split data</li>
-  <li>Train the model</li>
-  <li>Evaluate results</li>
-  <li>Tune hyperparameters</li>
-  <li>Deploy solution</li>
-</ol>
+1. Define the problem  
+2. Collect and prepare data  
+3. Preprocess the features  
+4. Split data (Train/Test)  
+5. Train the model  
+6. Evaluate performance  
+7. Tune hyperparameters  
+8. Deploy the model
 
 ---
 
-## 📌 Applications
+## 📌 Real-World Applications
 
-<ul>
-  <li>📧 Spam Email Detection</li>
-  <li>💳 Credit Card Fraud Detection</li>
-  <li>🏥 Disease Diagnosis</li>
-  <li>🛒 Customer Churn Prediction</li>
-  <li>🔍 Search Engine Ranking</li>
-  <li>🎓 Student Performance Prediction</li>
-</ul>
+- 📧 Spam Email Detection  
+- 💳 Fraud Detection  
+- 🏥 Medical Diagnosis  
+- 🛒 Customer Churn Prediction  
+- 🔍 Search Engine Ranking  
+- 🎓 Student Performance Prediction
 
 ---
 
@@ -142,11 +132,11 @@
   </thead>
   <tbody>
     <tr><td>Data</td><td>Labeled</td><td>Unlabeled</td></tr>
-    <tr><td>Goal</td><td>Predict outcome</td><td>Find structure</td></tr>
+    <tr><td>Goal</td><td>Prediction</td><td>Pattern discovery</td></tr>
     <tr><td>Examples</td><td>Linear Regression, SVM</td><td>K-Means, PCA</td></tr>
   </tbody>
 </table>
 
-<img src="https://via.placeholder.com/600x300.png?text=Supervised+vs+Unsupervised" alt="Supervised vs Unsupervised" width="600"/>
+<img src="https://via.placeholder.com/600x300.png?text=Supervised+vs+Unsupervised" width="600" alt="Comparison image"/>
 
 </div>
