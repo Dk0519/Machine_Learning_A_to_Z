@@ -15,6 +15,27 @@ Statistics is the discipline that **collects, organizes, summarizes, analyzes, a
 
 ---
 
+## 🗂️ Types of Data
+
+| Category                      | Sub‑types      | Description       | Examples                      | Typical ML Encoding |
+| ----------------------------- | -------------- | ----------------- | ----------------------------- | ------------------- |
+| **Qualitative (Categorical)** | **Nominal**    | Unordered labels  | browser {Chrome, Safari}      | One‑hot             |
+|                               | **Ordinal**    | Ordered labels    | Likert scale {Poor→Excellent} | Ordinal/Target      |
+| **Quantitative (Numeric)**    | **Discrete**   | Integers / counts | clicks per session            | As‑is or log        |
+|                               | **Continuous** | Any real number   | temperature °C                | Normalization       |
+
+> 💡 **Why it matters:** Choosing the wrong encoding can break distance‑based models (e.g., k‑NN treats category codes as numeric distance).
+
+<details>
+<summary><strong>More on Encoding 🛠️</strong></summary>
+
+* **Label Encoding** – preserves order → good for ordinal.
+* **One‑Hot / Dummy** – breaks a column into *k* binary flags → default for nominal.
+* **Frequency Encoding** – map category to its empirical probability.
+* **Target Encoding** – replace category with mean target → powerful but risk of leakage.
+
+</details>
+
 ## 🌳 Two Main Branches
 
 | Branch          | Goal                                              | Typical Questions                               |
@@ -121,6 +142,20 @@ $E[(y-\hat f(x))^2] = \underbrace{\text{Bias}^2}_{(E\hat f - f)^2} + \underbrace
 * **Early stopping**: Monitor CV error → balance variance.
 * **Ensembles**: Bagging (Random Forest) reduces variance via bootstrap.
 
+</details>
 
+---
 
+## 📚 Further Reading & Resources
 
+1. *Pattern Recognition & Machine Learning* — C. Bishop, Ch. 1‑2.
+2. *An Introduction to Statistical Learning* — J. James et al., Ch. 2‑5.
+3. *Practical Statistics for Data Scientists* — B. Bruce.
+
+---
+
+> 🏁 **Next Steps:** Dive into probability distributions ➡️ Normal, Bernoulli, Poisson, …
+
+---
+
+© 2025 Prashant Yadav. Feel free to copy / share under CC‑BY‑SA 4.0.
