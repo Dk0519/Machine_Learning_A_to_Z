@@ -131,7 +131,13 @@ Below, each branch is expandable. Click to dive in! ⤵️
 ### 4. Bias‑Variance Trade‑off 🎯
 
 Derive expected test MSE:
-$E[(y-\hat f(x))^2] = \underbrace{\text{Bias}^2}_{(E\hat f - f)^2} + \underbrace{\text{Variance}}_{E[(\hat f-E\hat f)^2]} + \sigma^2$
+
+$$
+\operatorname{E}\big[(y - \hat{f}(x))^{2}\big]
+ = \underbrace{\big(\operatorname{Bias}[\hat{f}(x)]\big)^{2}}_{(\mathbb{E}\,\hat{f}(x) - f(x))^{2}}
+ + \underbrace{\operatorname{Var}[\hat{f}(x)]}_{\mathbb{E}\big[(\hat{f}(x) - \mathbb{E}\,\hat{f}(x))^{2}\big]}
+ + \sigma^{2}
+$$
 
 * **High‑bias models**: underfit (e.g., linear on non‑linear data).
 * **High‑variance models**: overfit (deep tree without pruning).
